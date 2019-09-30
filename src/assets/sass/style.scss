@@ -1,0 +1,86 @@
+/*=============
+    1.Default styles
+    2.Fonts styles
+    3.Reset styles
+    4.Header styles
+    5.Posts styles
+    6.Sidebar styles
+    7.Iconmoon styles
+    8.News styles
+    9.Footer styles
+    10.Pages styles
+    11.Pages comments styles
+    12.Contact styles
+    13.404 page styles
+    14.Media styles
+================*/
+
+// Project variables
+
+@import "variables/vars";
+
+/*******************
+Table of contents
+
+===== 1.Default styles
+
+*******************/
+
+/*===== 2.Fonts styles
+
+*******************/
+
+@import "fonts/fonts";
+
+/* == 3.Reset styles
+====================*/
+
+@import "variables/reset";
+
+body {
+  font-family: "Roboto", sans-serif;
+  &::-webkit-scrollbar {
+    width: 10px;
+  }
+  &::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px $scrollShadow;
+  }
+  &::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: $mainColor;
+    outline: 1px solid $borderInput;
+  }
+
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+
+
+div {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  outline: 0;
+}
+
+p {
+  font-weight: 300;
+  font-size: 14px;
+}
+
+
+.flex {
+  display: flex;
+}
+
+.wrapper {
+  max-width: 1500px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+
+@import "media";

@@ -1,0 +1,5 @@
+@mixin col ($x, $y) {
+    grid-template-columns: $x $y;
+}
+
+

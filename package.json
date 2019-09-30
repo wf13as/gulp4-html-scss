@@ -1,0 +1,54 @@
+{
+  "name": "gulp4-html-scss",
+  "version": "1.0.0",
+  "main": "gulpfile.babel.js",
+  "scripts": {
+    "build": "gulp",
+    "build:scripts": "gulp scripts",
+    "build:styles": "gulp styles",
+    "build:views": "gulp views",
+    "clean": "gulp clean",
+    "images": "gulp images",
+    "start": "gulp watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wf13as/gulp4-html-scss.git"
+  },
+  "author": "wf13as",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "@babel/polyfill": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/register": "^7.4.4",
+    "browser-sync": "^2.26.5",
+    "del": "^4.1.1",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-cssbeautify": "^1.0.1",
+    "gulp-cssnano": "^2.1.3",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-rigger": "^0.5.8",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-strip-css-comments": "^2.0.0",
+    "gulp-uglify": "^3.0.2",
+    "normalize.css": "^8.0.1"
+  },
+  "browserslist": [
+    "last 1 version",
+    "> 1%",
+    "Firefox ESR",
+    "IE 11"
+  ],
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  }
+}
